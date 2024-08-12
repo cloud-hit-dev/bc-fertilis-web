@@ -27,7 +27,7 @@ export function CallToAction() {
             Es hora de optimizar tu rendimiento agrícola. Compra nuestros fertilizantes
             para asegurar una cosecha abundante y saludable.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="/contact" color="white" className="mt-10">
             Obtén 6 meses de asesoría gratis
           </Button>
         </div>

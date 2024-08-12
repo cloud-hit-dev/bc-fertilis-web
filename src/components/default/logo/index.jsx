@@ -1,3 +1,7 @@
+'use client'
+
+import { useRouter } from "next/navigation"
+
 export function Logo2(props) {
     return (
         <svg aria-hidden="true" viewBox="0 0 109 40" {...props}>
@@ -32,6 +36,7 @@ export function Logo2(props) {
 }
 
 export function Logo(props) {
+    const router = useRouter()
     return (
         <>
             <svg

@@ -23,7 +23,7 @@ export default function Login() {
       <p className="mt-2 text-sm text-gray-700">
         Don’t have an account?{' '}
         <Link
-          href="/register"
+          href="/contact"
           className="font-medium text-primary-600 hover:underline"
         >
           Sign up

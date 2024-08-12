@@ -11,17 +11,13 @@ import { Faqs } from '@/components/home-default/Faqs'
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <PrimaryFeatures />
-        <SecondaryFeatures />
-        {/* <Testimonials /> */}
-        <Products />
-        <Faqs />
-        <CallToAction />
-      </main>
-      <Footer />
+      <Hero />
+      <PrimaryFeatures />
+      <SecondaryFeatures />
+      {/* <Testimonials /> */}
+      <Products />
+      <Faqs />
+      <CallToAction />
     </>
   )
 }

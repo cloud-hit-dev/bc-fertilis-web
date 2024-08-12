@@ -7,9 +7,9 @@ import { NavLink } from '@/components/default/navlink'
 export function Footer() {
     const data = {
         tabs: [
-            { name: 'Inicio', href: '#' },
-            { name: 'Productos', href: '#' },
-            { name: 'Nosotros', href: '#' },
+            { name: 'Inicio', href: '/' },
+            { name: 'Productos', href: '/products' },
+            { name: 'Nosotros', href: '/about-us' },
         ],
         name: 'Empresa BC Fertilis Panamá',
         twitter: 'https://x.com/',

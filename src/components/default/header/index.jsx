@@ -69,7 +69,7 @@ function MobileNavigation({ data }) {
             >
                 {data.tabs.map((tab, index) => <MobileNavLink href={tab.href} key={tab.name}>{tab.name}</MobileNavLink>)}
                 <hr className="m-2 border-secondary-300/40" />
-                <MobileNavLink href="/login">Contactar</MobileNavLink>
+                <MobileNavLink href="https://web.whatsapp.com/">Whatsapp</MobileNavLink>
             </PopoverPanel>
         </Popover>
     )
@@ -78,9 +78,9 @@ function MobileNavigation({ data }) {
 export function Header() {
     const data = {
         tabs: [
-            { name: 'Inicio', href: '#' },
-            { name: 'Productos', href: '#' },
-            { name: 'Nosotros', href: '#' },
+            { name: 'Inicio', href: '/' },
+            { name: 'Productos', href: '/products' },
+            { name: 'Nosotros', href: '/about-us' },
         ],
         name: 'Empresa BC Fertilis Panamá',
         twitter: 'https://x.com/',
@@ -92,7 +92,7 @@ export function Header() {
             <Container>
                 <nav className="relative z-50 flex justify-between">
                     <div className="flex items-center md:gap-x-12">
-                        <Link href="#" aria-label="Home">
+                        <Link href="/" aria-label="Home">
                             <Logo className="h-10 w-auto" />
                         </Link>
                         <div className="hidden md:flex md:gap-x-6">
@@ -100,10 +100,10 @@ export function Header() {
                         </div>
                     </div>
                     <div className="flex items-center gap-x-5 md:gap-x-8">
-                        {/* <div className="hidden md:block">
-                            <NavLink href="/login">Sign in</NavLink>
-                        </div> */}
-                        <Button href="/register" color="blue">
+                        <div className="hidden md:block">
+                            <NavLink href="https://web.whatsapp.com/">Whatsapp</NavLink>
+                        </div>
+                        <Button href="/contact" color="blue">
                             <span>
                                 Contactar <span className="hidden lg:inline">hoy</span>
                             </span>
