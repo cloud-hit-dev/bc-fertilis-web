@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-import { Button } from '@/components/Button'
-import { TextField } from '@/components/Fields'
-import { Logo } from '@/components/Logo'
-import { SlimLayout } from '@/components/SlimLayout'
+import { Button } from '@/ui/button'
+import { TextField } from '@/components/home-default/Fields'
+import { Logo } from '@/components/default/logo'
+import { SlimLayout } from '@/layout/default/SlimLayout'
 
 export const metadata = {
   title: 'Sign In',
@@ -24,7 +24,7 @@ export default function Login() {
         Don’t have an account?{' '}
         <Link
           href="/register"
-          className="font-medium text-blue-600 hover:underline"
+          className="font-medium text-primary-600 hover:underline"
         >
           Sign up
         </Link>{' '}

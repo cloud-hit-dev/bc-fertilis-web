@@ -1,12 +1,12 @@
-import { CallToAction } from '@/components/CallToAction'
-import { Faqs } from '@/components/Faqs'
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { Pricing } from '@/components/Pricing'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Testimonials } from '@/components/Testimonials'
+import { Footer } from '@/components/default/footer'
+import { Header } from '@/components/default/header'
+import { Hero } from '@/components/home-default/Hero'
+import { Products } from '@/components/home-default/Pricing'
+import { PrimaryFeatures } from '@/components/home-default/PrimaryFeatures'
+import { SecondaryFeatures } from '@/components/home-default/SecondaryFeatures'
+import { Testimonials } from '@/components/home-default/Testimonials'
+import { CallToAction } from '@/components/home-default/CallToAction'
+import { Faqs } from '@/components/home-default/Faqs'
 
 export default function Home() {
   return (
@@ -16,10 +16,10 @@ export default function Home() {
         <Hero />
         <PrimaryFeatures />
         <SecondaryFeatures />
-        <CallToAction />
-        <Testimonials />
-        <Pricing />
+        {/* <Testimonials /> */}
+        <Products />
         <Faqs />
+        <CallToAction />
       </main>
       <Footer />
     </>
